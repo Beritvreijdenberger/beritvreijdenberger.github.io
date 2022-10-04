@@ -1,53 +1,11 @@
 @charset "UTF-8";
 
-span {
-	font-family: montserrat;
-}
-a {
-	font-family: montserrat;
-}
-
-h3 {
-	font-family: 'Gotham Black';
-}
-h4 {
-	font-family:"Gotham Black";
-}
-h5 {
-	font-family: "Gotham Medium";
-}
-h6 {
-	font-family: montserrat;
-}
-label {
-	font-family: montserrat;
-}
-p {
-	font-family: montserrat;
-}
-input {
-	font-family: montserrat;
-}
-
-button {
-	font-family: 'Gotham Light';
-}
-
-span{
-	font-family:'Gotham Light';
-}
-
-li {
-	font-family: montserrat;
-}
-
 body {
 	/*max-width: 480px;*/
 	margin-top: 59px;
 	background-size: 480px auto;
+	font-family: 'roboto', sans-serif;
 }
-
-/*navigation*/
 
 a{
 	color: black;
@@ -58,14 +16,14 @@ a{
 	border-radius: none;
 }
 
-.nav {
-	/*max-width: 480px;*/
+.list-group-item.active {
+	background-color:  #ff0065;
+	    border-color: #ff0065;
 }
 
-.navbar{
-	/*max-width: 480px;*/
+.list-group-flush .list-group-item {
+	font-size: 0.7rem;
 }
-
 
 .footer {
 	background-color: aqua;
@@ -168,4 +126,8 @@ input:checked + .slider:before {
 
 .form-item{
 	margin-bottom: 4px;
+}
+
+.h1{
+	font-family: "vogue";
 }
