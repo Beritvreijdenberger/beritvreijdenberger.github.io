@@ -7,6 +7,14 @@ body {
 	font-family: 'roboto', sans-serif;
 }
 
+hr{
+	margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(255,30,101);
+  width: 20%;
+}
+
 a{
 	color: black;
 }
@@ -19,6 +27,15 @@ a{
 .list-group-item.active {
 	background-color:  #ff0065;
 	    border-color: #ff0065;
+}
+
+.btn-outline-danger {
+    color: #ff0065;
+    border-color: #ff0065;
+}
+
+.border-danger {
+    border-color: #ff0065!important;
 }
 
 .list-group-flush .list-group-item {
