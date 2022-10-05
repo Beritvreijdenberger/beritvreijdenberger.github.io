@@ -34,6 +34,12 @@ a{
     border-color: #ff0065;
 }
 
+.btn-outline-danger:hover, .btn-outline-danger:focus,{
+    color: #fff;
+    background-color: #ff0065;
+    border-color: #ff0065; 
+}
+
 .border-danger {
     border-color: #ff0065!important;
 }
