@@ -24,6 +24,12 @@ a{
 	border-radius: none;
 }
 
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #ff0065;
+    border-color: #ff0065;
+}
+
 .list-group-item.active {
 	background-color:  #ff0065;
 	    border-color: #ff0065;
@@ -37,6 +43,14 @@ a{
 .btn-outline-danger:hover{
     color: white;!important
     background-color: #ff0065;!important
+}
+
+button, .fat{
+  font-family: "Gotham Medium";
+  letter-spacing: 2px;
+}
+.list-group-flush .list-group-item {
+  font-size: 0.7rem;
 }
 
 .designer{
