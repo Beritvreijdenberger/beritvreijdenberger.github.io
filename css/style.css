@@ -46,7 +46,7 @@ a{
 }
 
 button, .fat{
-  font-family: "Gotham Medium";
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
 }
 .list-group-flush .list-group-item {
